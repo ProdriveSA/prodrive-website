@@ -628,3 +628,14 @@ nav a:hover {
 .inspection-card h3 { color: #003d6a; font-size: 1.3rem; margin: 14px 0 10px; }
 .inspection-card p { color: #222; line-height: 1.55; margin: 0 0 10px; }
 .inspection-card .inspection-meta { color: #0082c8; font-weight: 600; margin: 14px 0 0; }
+
+/* Gallery: wide photo shown uncropped */
+.gallery-row img.gallery-wide {
+  width: auto;
+  max-width: 100%;
+  aspect-ratio: 1200 / 628;
+  object-fit: cover;
+}
+@media (max-width: 900px) {
+  .gallery-row img.gallery-wide { width: 100%; max-width: 640px; height: auto; }
+}
