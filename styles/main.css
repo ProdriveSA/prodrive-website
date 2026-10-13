@@ -681,3 +681,27 @@ nav a:hover {
 
 /* Keep cards inside the screen on phones */
 .course-card, .inspection-card, .step, .module { box-sizing: border-box; }
+
+/* ===== Brand colours (from ProDrive social graphics) ===== */
+:root { --pd-navy: #1f225d; --pd-sky: #00b0eb; --pd-orange: #ff8c2d; }
+nav, nav ul, .site-footer { background: var(--pd-navy); }
+nav { border-bottom: 4px solid var(--pd-orange); }
+@media (max-width: 1100px) { nav ul { background: var(--pd-navy); top: 64px; } }
+nav a:hover { color: var(--pd-orange); }
+.site-footer { border-top: 6px solid var(--pd-orange); }
+.hero-content h1, .hero .tagline { color: var(--pd-navy); }
+.series-kicker { color: var(--pd-orange); }
+.soon-badge { background: var(--pd-orange); color: var(--pd-navy); }
+.btn-primary { background: var(--pd-orange); color: var(--pd-navy); }
+.btn-primary:hover { background: #ff7a0d; }
+.interest-box, .how-section { background: var(--pd-navy); }
+.interest-box { border-bottom: 6px solid var(--pd-orange); }
+.step-number { background: var(--pd-orange); color: var(--pd-navy); }
+.bee-level { background: var(--pd-navy); }
+.bee-badge { border-color: var(--pd-navy); }
+.module { border-left-color: var(--pd-orange); }
+.module-number { color: var(--pd-navy); }
+.inspection-card { border-top-color: var(--pd-orange); }
+.inspection-card:nth-child(2) { border-top-color: var(--pd-navy); }
+.inspection-card h3, .tips-heading { color: var(--pd-navy); }
+.fleet-list li::before { color: var(--pd-orange); }
