@@ -705,3 +705,48 @@ nav a:hover { color: var(--pd-orange); }
 .inspection-card:nth-child(2) { border-top-color: var(--pd-navy); }
 .inspection-card h3, .tips-heading { color: var(--pd-navy); }
 .fleet-list li::before { color: var(--pd-orange); }
+/* ===== Hero in the style of the series banner ===== */
+.hero.hero-brand {
+  background: var(--pd-navy);
+  border-radius: 0;
+  border-bottom: 8px solid var(--pd-orange);
+  padding: 110px 20px 70px;
+  box-shadow: none;
+}
+.hero-brand .hero-logo-card {
+  display: inline-block;
+  background: #fff;
+  border-radius: 18px;
+  padding: 18px 34px;
+  margin-bottom: 34px;
+}
+.hero-brand .hero-logo { max-width: 300px; margin: 0; }
+.hero-brand .hero-content h1 {
+  color: var(--pd-sky);
+  font-size: 2.8rem;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+.hero-brand .hero-rule {
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #7d80b5;
+  margin: 22px auto;
+}
+.hero-brand .hero-line {
+  color: var(--pd-sky);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+}
+.hero-brand .hero-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 40px; }
+.btn-outline { background: transparent; color: #fff; border: 2px solid #fff; }
+.btn-outline:hover { background: #fff; color: var(--pd-navy); }
+@media (max-width: 600px) {
+  .hero.hero-brand { padding: 96px 16px 52px; }
+  .hero-brand .hero-logo { max-width: 200px; }
+  .hero-brand .hero-logo-card { padding: 12px 22px; }
+  .hero-brand .hero-content h1 { font-size: 1.9rem; }
+  .hero-brand .hero-line { font-size: 1.3rem; }
+}
