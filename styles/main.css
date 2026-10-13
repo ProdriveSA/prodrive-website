@@ -432,3 +432,37 @@ nav a:hover {
   margin-right: calc(50% - 50vw);
   width: 100vw;
 }
+/* B-BBEE badge */
+.bee-badge {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #f4f8fc;
+  border: 2px solid #0082c8;
+  border-radius: 16px;
+  padding: 18px 24px;
+  margin: 8px 0 40px 0;
+  max-width: 520px;
+  text-align: left;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+}
+.bee-level {
+  flex: 0 0 auto;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: #003d6a;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bee-level-number { font-size: 2.4rem; font-weight: 700; line-height: 1; }
+.bee-level-label { font-size: 0.7rem; letter-spacing: 0.5px; text-transform: uppercase; margin: 2px 0; }
+.bee-details { display: flex; flex-direction: column; gap: 4px; color: #222; font-size: 0.95rem; }
+.bee-details strong { color: #005baa; font-size: 1.15rem; }
+.bee-details a { color: #0082c8; font-weight: 600; margin-top: 4px; }
+@media (max-width: 480px) {
+  .bee-badge { flex-direction: column; text-align: center; padding: 18px 16px; }
+}
