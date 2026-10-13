@@ -678,3 +678,6 @@ nav a:hover {
   .hero-content h1 { font-size: 2rem; }
   .hero .slogan { font-size: 1.3rem; }
 }
+
+/* Keep cards inside the screen on phones */
+.course-card, .inspection-card, .step, .module { box-sizing: border-box; }
