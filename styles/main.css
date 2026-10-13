@@ -477,3 +477,23 @@ nav a:hover {
 @media (max-width: 900px) {
   .gallery-row img.gallery-wide { width: 100%; max-width: 640px; height: auto; }
 }
+
+/* Safety tips (branded square posts, shown uncropped) */
+.tips-heading { color: #003d6a; font-size: 1.4rem; margin: 48px 0 20px; }
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.tips-grid img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+@media (max-width: 700px) {
+  .tips-grid { grid-template-columns: 1fr; max-width: 420px; }
+}
