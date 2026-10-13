@@ -466,3 +466,14 @@ nav a:hover {
 @media (max-width: 480px) {
   .bee-badge { flex-direction: column; text-align: center; padding: 18px 16px; }
 }
+
+/* Gallery: wide photo shown uncropped */
+.gallery-row img.gallery-wide {
+  width: auto;
+  max-width: 100%;
+  aspect-ratio: 1200 / 628;
+  object-fit: cover;
+}
+@media (max-width: 900px) {
+  .gallery-row img.gallery-wide { width: 100%; max-width: 640px; height: auto; }
+}
