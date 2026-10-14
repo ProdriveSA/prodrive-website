@@ -777,3 +777,19 @@ nav a:hover { color: var(--pd-orange); }
 .wellness-qr img { width: 104px; height: 104px; border: 1px solid #e3e4ef; border-radius: 8px; }
 .wellness-qr span { font-size: 0.85rem; color: #555; max-width: 120px; line-height: 1.35; }
 @media (max-width: 700px) { .wellness-qr { display: none; } }
+
+/* Slogan strip under the hero */
+.slogan-strip {
+  display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: 8px 18px;
+  background: var(--pd-orange); color: var(--pd-navy); text-decoration: none;
+  padding: 18px 20px; text-align: center;
+}
+.hero.hero-brand { border-bottom: none; }
+.slogan-main { font-size: 1.5rem; font-weight: 800; }
+.slogan-sub { font-size: 1.05rem; font-weight: 600; }
+.slogan-strip:hover .slogan-sub { text-decoration: underline; }
+.footer-slogan { margin: 0 0 8px; font-weight: 700; color: var(--pd-orange); letter-spacing: 0.5px; }
+@media (max-width: 600px) {
+  .slogan-main { font-size: 1.2rem; }
+  .slogan-sub { font-size: 0.95rem; }
+}
