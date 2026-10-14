@@ -767,3 +767,13 @@ nav a:hover { color: var(--pd-orange); }
 }
 
 .wellness-partner .wellness-link { margin-top: 18px; }
+
+/* Wellness clinic finder + QR */
+.wellness-actions { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-top: 18px; }
+.wellness-partner .wellness-link { margin-top: 0; }
+.btn-ghost { background: transparent; color: var(--pd-navy); border: 2px solid var(--pd-navy); }
+.btn-ghost:hover { background: var(--pd-navy); color: #fff; }
+.wellness-qr { display: flex; align-items: center; gap: 12px; margin-left: auto; }
+.wellness-qr img { width: 104px; height: 104px; border: 1px solid #e3e4ef; border-radius: 8px; }
+.wellness-qr span { font-size: 0.85rem; color: #555; max-width: 120px; line-height: 1.35; }
+@media (max-width: 700px) { .wellness-qr { display: none; } }
