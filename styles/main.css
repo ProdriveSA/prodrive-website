@@ -641,7 +641,7 @@ nav a:hover { color: var(--pd-orange); }
 }
 
 /* ===== Company profile ===== */
-.profile-section .series-kicker { margin-bottom: 6px; }
+.about-section.profile-section p.series-kicker { margin-bottom: 6px; color: var(--pd-orange); }
 .profile-section h2 { color: var(--pd-navy); }
 .profile-section > p { line-height: 1.65; margin-bottom: 18px; }
 .profile-facts {
