@@ -808,3 +808,8 @@ nav a:hover { color: var(--pd-orange); }
   .risk-box { font-size: 0.85rem; padding: 10px 14px; letter-spacing: 0.4px; }
   .wellness-lead { font-size: 0.92rem; }
 }
+
+/* Bolder headline: A trained & healthy driver is a safer driver */
+.slogan-main { font-weight: 900; font-size: 1.75rem; letter-spacing: 0.2px; }
+.wellness-section h2 { font-weight: 900; }
+@media (max-width: 600px) { .slogan-main { font-size: 1.35rem; } }
