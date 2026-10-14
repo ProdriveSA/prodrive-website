@@ -904,3 +904,18 @@ nav a:hover { color: var(--pd-orange); }
   .slogan-main { font-size: 1.2rem; }
   .slogan-sub { font-size: 0.95rem; }
 }
+
+/* Risk statements: bold caps, white on navy */
+.slogan-strip { flex-direction: column; align-items: center; gap: 12px; padding: 22px 20px; }
+.risk-box {
+  display: inline-flex; flex-direction: column; gap: 4px;
+  background: var(--pd-navy); color: #fff; border-radius: 10px; padding: 12px 22px;
+  font-weight: 800; text-transform: uppercase; letter-spacing: 0.8px; font-size: 1rem; line-height: 1.35;
+}
+.wellness-lead { display: flex; flex-direction: column; gap: 4px; align-items: center;
+  text-transform: uppercase; letter-spacing: 0.8px; font-size: 1.05rem; font-weight: 800; }
+.wellness-lead span:first-child { color: var(--pd-orange); }
+@media (max-width: 600px) {
+  .risk-box { font-size: 0.85rem; padding: 10px 14px; letter-spacing: 0.4px; }
+  .wellness-lead { font-size: 0.92rem; }
+}
