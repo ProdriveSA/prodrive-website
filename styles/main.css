@@ -765,3 +765,5 @@ nav a:hover { color: var(--pd-orange); }
   .wellness-section h2 { font-size: 1.7rem; }
   .wellness-scenario, .wellness-partner { padding: 20px 18px; }
 }
+
+.wellness-partner .wellness-link { margin-top: 18px; }
