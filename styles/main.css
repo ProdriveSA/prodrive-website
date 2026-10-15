@@ -1003,3 +1003,6 @@ nav a.active { color: var(--pd-orange); }
   .courses-gallery h2.ddsl-title { font-size: 1.8rem; }
   .ddsl-tagline { font-size: 1rem; }
 }
+
+.steps { grid-template-columns: repeat(3, 1fr); max-width: 900px; }
+@media (max-width: 700px) { .steps { grid-template-columns: 1fr; } }
