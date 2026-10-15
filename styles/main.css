@@ -1053,3 +1053,7 @@ body { background: #ffffff; }
 /* Slogan headline: white, capitals, slanted */
 .slogan-main { text-transform: uppercase; font-style: italic; letter-spacing: 0.5px; }
 .slogan-main { border-bottom: 4px solid var(--pd-orange); padding-bottom: 4px; }
+
+/* Grey button (PRODRIVE grey) */
+.btn-grey { background: var(--pd-grey); color: #fff; }
+.btn-grey:hover { background: #5a5b5e; color: #fff; }
