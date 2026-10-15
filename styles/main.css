@@ -1045,3 +1045,7 @@ body { background: #ffffff; }
 :root { --pd-grey: #6d6e71; --pd-silver: #c9cacc; }
 .footer-slogan { color: var(--pd-silver); letter-spacing: 1px; }
 .site-footer { border-top-width: 3px; }
+
+/* Slogan strip in PRODRIVE grey instead of orange */
+.slogan-strip { background: var(--pd-grey); color: #fff; }
+.slogan-main { color: #fff; }
