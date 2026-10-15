@@ -1115,3 +1115,6 @@ body { background: #ffffff; }
 }
 .wb-num { font-size: 3rem; font-weight: 900; line-height: 1; }
 .wb-label { font-size: 0.8rem; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; line-height: 1.25; margin-top: 4px; }
+
+.offer-grid { grid-template-columns: repeat(2, 1fr); max-width: 900px; }
+@media (max-width: 600px) { .offer-grid { grid-template-columns: 1fr; } }
