@@ -1010,3 +1010,31 @@ body { background: #ffffff; }
 .handover-card { margin-top: 8px; }
 
 .handover-btn { margin-top: 16px; }
+
+/* Dealer vouchers */
+.voucher-card {
+  display: flex; gap: 28px; align-items: center; flex-wrap: wrap;
+  max-width: 1000px; margin: 28px auto 0; padding: 28px; box-sizing: border-box;
+  background: var(--pd-navy); color: #fff; border-radius: 16px; text-align: left;
+  border-top: 6px solid var(--pd-orange);
+}
+.voucher-text { flex: 1 1 420px; }
+.voucher-tag {
+  display: inline-block; background: rgba(255,255,255,0.12); color: #fff; font-weight: 700; font-size: 0.8rem;
+  letter-spacing: 1px; text-transform: uppercase; padding: 4px 12px; border-radius: 999px;
+}
+.voucher-card h3 { color: #fff; font-size: 1.35rem; margin: 12px 0 10px; }
+.voucher-card p { color: #e6ebef; line-height: 1.6; margin: 0 0 12px; }
+.voucher-card ul { list-style: none; margin: 0 0 20px; padding: 0; }
+.voucher-card li { position: relative; padding: 6px 0 6px 26px; color: #e6ebef; line-height: 1.5; }
+.voucher-card li::before { content: "\2713"; position: absolute; left: 0; color: var(--pd-orange); font-weight: 800; }
+.voucher-card li strong { color: #fff; }
+.voucher-ticket {
+  flex: 0 0 auto; margin: 0 auto; width: 210px; padding: 20px 18px; box-sizing: border-box;
+  background: #fff; color: var(--pd-navy); border-radius: 12px; text-align: center;
+  border: 2px dashed var(--pd-orange); display: flex; flex-direction: column; gap: 6px;
+}
+.vt-top { font-size: 0.75rem; font-weight: 800; letter-spacing: 2px; color: var(--pd-grey); }
+.vt-main { font-size: 1.6rem; font-weight: 900; text-transform: uppercase; line-height: 1.1; }
+.vt-sub { font-size: 0.85rem; font-weight: 600; color: #444; }
+.vt-code { margin-top: 6px; font-size: 0.8rem; font-weight: 800; letter-spacing: 3px; color: var(--pd-orange); border-top: 1px dashed #c9cacc; padding-top: 8px; }
