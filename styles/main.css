@@ -933,3 +933,17 @@ nav a:hover { color: var(--pd-orange); }
   .footer-details { flex-direction: column; align-items: center; gap: 2px; font-size: 0.9rem; }
   .footer-details .ft { border-left: none; }
 }
+
+/* ===== Company profile page ===== */
+.profile-page { padding-top: 64px; }
+.profile-title { color: var(--pd-navy); font-size: 2.2rem; margin: 0 0 24px; text-align: center; }
+.profile-more { margin-top: 8px; }
+nav a.active { color: var(--pd-orange); }
+.profile-cta {
+  background: var(--pd-navy); color: #fff; text-align: center; padding: 56px 20px;
+  border-top: 6px solid var(--pd-orange);
+}
+.profile-cta h2 { color: var(--pd-sky); font-size: 2rem; margin: 0 0 12px; }
+.profile-cta p { max-width: 720px; margin: 0 auto 26px; line-height: 1.6; color: #e8e9f5; font-size: 1.1rem; }
+.profile-cta + .site-footer { margin-top: 0; }
+@media (max-width: 600px) { .profile-title { font-size: 1.7rem; } }
