@@ -947,3 +947,16 @@ nav a.active { color: var(--pd-orange); }
 .profile-cta p { max-width: 720px; margin: 0 auto 26px; line-height: 1.6; color: #e8e9f5; font-size: 1.1rem; }
 .profile-cta + .site-footer { margin-top: 0; }
 @media (max-width: 600px) { .profile-title { font-size: 1.7rem; } }
+
+/* Track record (Daimler) */
+.track-record {
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  max-width: 1100px; width: 100%; margin: -12px auto 36px; padding: 18px 22px; box-sizing: border-box;
+  background: var(--pd-navy); border-radius: 12px; text-align: left;
+}
+.track-label {
+  flex: 0 0 auto; background: var(--pd-orange); color: var(--pd-navy); font-weight: 800; font-size: 0.78rem;
+  letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 12px; border-radius: 999px;
+}
+.about-section .track-record p { margin: 0; color: #e8e9f5; text-align: left; max-width: none; flex: 1 1 300px; line-height: 1.5; font-size: 1rem; }
+.about-section .track-record strong { color: #fff; }
