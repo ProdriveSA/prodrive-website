@@ -926,3 +926,8 @@ body { background: #ffffff; }
 .contact-info a, .bee-details a { color: var(--pd-navy); }
 .contact-section h2, .bee-details strong, .image-gallery h2, .courses-gallery h2 { color: var(--pd-navy); }
 .inspection-tag { color: var(--pd-navy); }
+
+/* Footer: PRODRIVE silver-grey slogan, less orange */
+:root { --pd-grey: #6d6e71; --pd-silver: #c9cacc; }
+.footer-slogan { color: var(--pd-silver); letter-spacing: 1px; }
+.site-footer { border-top-width: 3px; }
