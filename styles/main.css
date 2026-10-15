@@ -1118,3 +1118,5 @@ body { background: #ffffff; }
 
 .offer-grid { grid-template-columns: repeat(2, 1fr); max-width: 900px; }
 @media (max-width: 600px) { .offer-grid { grid-template-columns: 1fr; } }
+
+.handover-card p.handover-use { color: var(--pd-navy); margin: 4px 0 8px; }
