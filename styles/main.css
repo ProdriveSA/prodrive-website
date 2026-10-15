@@ -870,3 +870,12 @@ nav a.active { color: var(--pd-orange); }
 .howwework .btn-ghost { color: #fff; border-color: #fff; }
 .howwework .btn-ghost:hover { background: #fff; color: var(--pd-navy); }
 @media (max-width: 900px) { .howwework { width: 100%; max-width: 560px; text-align: left; } }
+
+/* Mission */
+.mission-block { max-width: 900px; margin: 0 auto 32px; padding: 0 10px; box-sizing: border-box; text-align: center; }
+.about-section .mission-block .fact-label { color: var(--pd-orange); margin: 0 0 10px; text-align: center; }
+.mission-block blockquote {
+  margin: 0 0 14px; color: var(--pd-navy); font-size: 1.45rem; font-weight: 700; line-height: 1.45; font-style: italic;
+}
+.about-section p.mission-plain { color: #444; font-size: 1.05rem; margin: 0 auto; }
+@media (max-width: 600px) { .mission-block blockquote { font-size: 1.15rem; } }
