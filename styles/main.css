@@ -1049,3 +1049,6 @@ body { background: #ffffff; }
 /* Slogan strip in PRODRIVE grey instead of orange */
 .slogan-strip { background: var(--pd-grey); color: #fff; }
 .slogan-main { color: #fff; }
+
+/* Slogan headline: white, capitals, slanted */
+.slogan-main { text-transform: uppercase; font-style: italic; letter-spacing: 0.5px; }
