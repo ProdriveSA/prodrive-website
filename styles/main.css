@@ -992,3 +992,14 @@ nav a.active { color: var(--pd-orange); }
 @media (max-width: 600px) { .mission-block blockquote { font-size: 1.15rem; } }
 
 .about-section .mission-block p.fact-label { max-width: none; margin-left: auto; margin-right: auto; }
+
+/* Defensive Driving Saves Lives title, matching the series workbooks */
+.courses-gallery h2.ddsl-title {
+  text-transform: uppercase; color: var(--pd-navy); font-weight: 900;
+  font-size: 2.4rem; line-height: 1.1; letter-spacing: 0.5px; margin: 4px 0 12px;
+}
+.ddsl-tagline { color: var(--pd-sky); font-weight: 800; font-size: 1.2rem; margin: 0 0 14px; }
+@media (max-width: 600px) {
+  .courses-gallery h2.ddsl-title { font-size: 1.8rem; }
+  .ddsl-tagline { font-size: 1rem; }
+}
