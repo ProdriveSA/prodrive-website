@@ -813,3 +813,12 @@ nav a:hover { color: var(--pd-orange); }
 .slogan-main { font-weight: 900; font-size: 1.75rem; letter-spacing: 0.2px; }
 .wellness-section h2 { font-weight: 900; }
 @media (max-width: 600px) { .slogan-main { font-size: 1.35rem; } }
+
+/* Footer details: tidy separators that wrap cleanly */
+.footer-details { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 0; }
+.footer-details .ft { padding: 0 14px; border-left: 1px solid rgba(255,255,255,0.35); white-space: nowrap; }
+.footer-details .ft:first-child { border-left: none; }
+@media (max-width: 600px) {
+  .footer-details { flex-direction: column; align-items: center; gap: 2px; font-size: 0.9rem; }
+  .footer-details .ft { border-left: none; }
+}
