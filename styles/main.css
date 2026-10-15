@@ -892,3 +892,25 @@ nav a.active { color: var(--pd-orange); }
   .courses-gallery h2.ddsl-title { font-size: 1.8rem; }
   .ddsl-tagline { font-size: 1rem; }
 }
+
+/* Series banner: colours from the Defensive Driving Saves Lives workbooks */
+:root { --series-navy: #12354f; --series-orange: #e8782a; }
+.series-banner {
+  max-width: 820px; margin: 6px auto 22px; border-radius: 14px; overflow: hidden;
+  background: var(--series-navy); box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+.courses-gallery h2.ddsl-title {
+  margin: 0; padding: 26px 20px 20px; display: flex; flex-direction: column; gap: 2px;
+  font-size: 2.6rem; line-height: 1.08; letter-spacing: 0.5px; text-transform: uppercase; font-weight: 900;
+}
+.ddsl-white { color: #fff; }
+.ddsl-orange { color: var(--series-orange); }
+.ddsl-tagline {
+  margin: 0; padding: 14px 20px; border-top: 4px solid var(--series-orange);
+  color: #fff; font-weight: 800; font-size: 1.2rem;
+}
+.ddsl-tagline span { color: var(--series-orange); }
+@media (max-width: 600px) {
+  .courses-gallery h2.ddsl-title { font-size: 1.85rem; padding: 20px 14px 16px; }
+  .ddsl-tagline { font-size: 0.98rem; padding: 12px 14px; }
+}
