@@ -990,3 +990,5 @@ nav a.active { color: var(--pd-orange); }
 }
 .about-section p.mission-plain { color: #444; font-size: 1.05rem; margin: 0 auto; }
 @media (max-width: 600px) { .mission-block blockquote { font-size: 1.15rem; } }
+
+.about-section .mission-block p.fact-label { max-width: none; margin-left: auto; margin-right: auto; }
