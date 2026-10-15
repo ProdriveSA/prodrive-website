@@ -1057,3 +1057,7 @@ body { background: #ffffff; }
 /* Grey button (PRODRIVE grey) */
 .btn-grey { background: var(--pd-grey); color: #fff; }
 .btn-grey:hover { background: #5a5b5e; color: #fff; }
+
+/* All main buttons in PRODRIVE grey */
+.btn-primary { background: var(--pd-grey); color: #fff; }
+.btn-primary:hover { background: #5a5b5e; color: #fff; }
