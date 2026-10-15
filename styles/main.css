@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  background: #35424a;
+  background: #12354f;
   color: #ffffff;
   padding: 10px 0;
   text-align: center;
@@ -26,7 +26,7 @@ h1 {
 
 nav {
   width: 100%;
-  background: #003d6a;
+  background: #12354f;
   padding: 0 20px;
   box-sizing: border-box;
   position: fixed;
@@ -77,7 +77,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffd700;
+  color: #e8782a;
 }
 
 /* Hamburger styles */
@@ -104,7 +104,7 @@ nav a:hover {
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
-    background: #003d6a;
+    background: #12354f;
     position: absolute;
     top: 60px;
     right: 0;
@@ -178,7 +178,7 @@ nav a:hover {
 }
 
 .site-footer {
-  background: #003d6a;
+  background: #12354f;
   color: #fff;
   text-align: center;
   padding: 18px 10px;
@@ -205,7 +205,7 @@ nav a:hover {
 }
 
 .contact-section h2 {
-  color: #005baa;
+  color: #12354f;
   margin-bottom: 16px;
   font-size: 2rem;
 }
@@ -229,11 +229,11 @@ nav a:hover {
   font-size: 1.2em;
   vertical-align: middle;
   margin-right: 8px;
-  color: #005baa;
+  color: #12354f;
 }
 
 .contact-info a {
-  color: #005baa;
+  color: #12354f;
   text-decoration: none;
   transition: text-decoration 0.2s;
 }
@@ -249,7 +249,7 @@ nav a:hover {
 }
 
 .courses-gallery h2 {
-  color: #005baa;
+  color: #12354f;
   margin-bottom: 32px;
   font-size: 2rem;
 }
@@ -275,7 +275,7 @@ nav a:hover {
 }
 
 .course-card h3 {
-  color: #0082c8;
+  color: #12354f;
   margin-bottom: 16px;
   font-size: 1.25rem;
 }
@@ -297,7 +297,7 @@ nav a:hover {
 }
 
 .image-gallery h2 {
-  color: #005baa;
+  color: #12354f;
   margin-bottom: 32px;
   font-size: 2rem;
 }
@@ -343,7 +343,7 @@ nav a:hover {
 }
 
 .about-section h2 {
-  color: #005baa;
+  color: #12354f;
   margin-bottom: 24px;
   font-size: 2rem;
   text-align: center;
@@ -437,8 +437,8 @@ nav a:hover {
   display: flex;
   align-items: center;
   gap: 20px;
-  background: #f4f8fc;
-  border: 2px solid #0082c8;
+  background: #f7f9fb;
+  border: 2px solid #12354f;
   border-radius: 16px;
   padding: 18px 24px;
   margin: 8px 0 40px 0;
@@ -451,7 +451,7 @@ nav a:hover {
   width: 88px;
   height: 88px;
   border-radius: 50%;
-  background: #003d6a;
+  background: #12354f;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -461,8 +461,8 @@ nav a:hover {
 .bee-level-number { font-size: 2.4rem; font-weight: 700; line-height: 1; }
 .bee-level-label { font-size: 0.7rem; letter-spacing: 0.5px; text-transform: uppercase; margin: 2px 0; }
 .bee-details { display: flex; flex-direction: column; gap: 4px; color: #222; font-size: 0.95rem; }
-.bee-details strong { color: #005baa; font-size: 1.15rem; }
-.bee-details a { color: #0082c8; font-weight: 600; margin-top: 4px; }
+.bee-details strong { color: #12354f; font-size: 1.15rem; }
+.bee-details a { color: #12354f; font-weight: 600; margin-top: 4px; }
 @media (max-width: 480px) {
   .bee-badge { flex-direction: column; text-align: center; padding: 18px 16px; }
 }
@@ -479,7 +479,7 @@ nav a:hover {
 }
 
 /* Safety tips (branded square posts, shown uncropped) */
-.tips-heading { color: #003d6a; font-size: 1.4rem; margin: 48px 0 20px; }
+.tips-heading { color: #12354f; font-size: 1.4rem; margin: 48px 0 20px; }
 .tips-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -499,15 +499,15 @@ nav a:hover {
 }
 
 /* Hero heading and slogan */
-.hero-content h1 { color: #003d6a; }
+.hero-content h1 { color: #12354f; }
 .hero .slogan {
-  color: #0082c8;
+  color: #12354f;
   font-size: 1.6rem;
   font-weight: 700;
   margin: 0 0 16px;
 }
 .hero .tagline {
-  color: #003d6a;
+  color: #12354f;
   font-weight: 700;
   letter-spacing: 2px;
   margin: 12px 0 28px;
@@ -522,14 +522,14 @@ nav a:hover {
 
 /* ---------- Programmes (launching soon) ---------- */
 .soon-badge {
-  display: inline-block; background: #ffd700; color: #003d6a;
+  display: inline-block; background: #e8782a; color: #12354f;
   font-weight: 800; font-size: 0.8rem; letter-spacing: 1px; text-transform: uppercase;
   padding: 6px 14px; border-radius: 999px; margin-bottom: 14px;
 }
-.series-kicker { color: #0082c8; font-weight: 800; letter-spacing: 3px; margin: 0 0 8px; font-size: 0.95rem; }
+.series-kicker { color: #12354f; font-weight: 800; letter-spacing: 3px; margin: 0 0 8px; font-size: 0.95rem; }
 .courses-gallery h2 { margin-top: 0; margin-bottom: 12px; }
 .courses-gallery h2.sub-programme { margin-top: 56px; }
-.series-count { color: #003d6a; font-size: 1.15rem; margin: 0 0 20px; }
+.series-count { color: #12354f; font-size: 1.15rem; margin: 0 0 20px; }
 .section-intro { max-width: 720px; margin: 0 auto 28px; color: #333; font-size: 1.1rem; line-height: 1.6; }
 .module-grid {
   list-style: none; margin: 0 auto; padding: 0; max-width: 1100px;
@@ -537,27 +537,27 @@ nav a:hover {
 }
 .module {
   display: flex; align-items: center; gap: 14px; background: #f4f4f4;
-  border-left: 4px solid #0082c8; border-radius: 10px; padding: 14px 16px;
+  border-left: 4px solid #12354f; border-radius: 10px; padding: 14px 16px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05); box-sizing: border-box;
 }
-.module-number { font-weight: 800; font-size: 1.3rem; color: #0082c8; min-width: 32px; }
-.module-title { color: #1f2d3a; font-weight: 600; line-height: 1.35; }
+.module-number { font-weight: 800; font-size: 1.3rem; color: #12354f; min-width: 32px; }
+.module-title { color: #12354f; font-weight: 600; line-height: 1.35; }
 .inspection-row { display: flex; gap: 28px; justify-content: center; flex-wrap: wrap; max-width: 1000px; margin: 0 auto; }
 .inspection-card {
   flex: 1 1 320px; max-width: 460px; box-sizing: border-box;
   background: #f4f4f4; border-radius: 16px; padding: 28px 26px; text-align: left;
-  border-top: 6px solid #0082c8; box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+  border-top: 6px solid #12354f; box-shadow: 0 4px 16px rgba(0,0,0,0.07);
 }
-.inspection-card:nth-child(2) { border-top-color: #003d6a; }
+.inspection-card:nth-child(2) { border-top-color: #12354f; }
 .inspection-tag {
-  display: inline-block; background: #e6f2fa; color: #005baa; font-weight: 700; font-size: 0.8rem;
+  display: inline-block; background: #e9eef2; color: #12354f; font-weight: 700; font-size: 0.8rem;
   letter-spacing: 1px; text-transform: uppercase; padding: 4px 12px; border-radius: 999px;
 }
-.inspection-card h3 { color: #003d6a; font-size: 1.3rem; margin: 14px 0 10px; }
+.inspection-card h3 { color: #12354f; font-size: 1.3rem; margin: 14px 0 10px; }
 .inspection-card p { color: #222; line-height: 1.55; margin: 0; }
 .interest-box {
   max-width: 760px; margin: 48px auto 0; padding: 28px 24px; box-sizing: border-box;
-  background: #003d6a; color: #fff; border-radius: 16px;
+  background: #12354f; color: #fff; border-radius: 16px;
 }
 .interest-box p { margin: 0 0 20px; font-size: 1.1rem; line-height: 1.5; }
 .interest-buttons { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
@@ -566,12 +566,12 @@ nav a:hover {
   transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
 }
 .btn:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,0.15); }
-.btn-primary { background: #0082c8; color: #fff; }
-.btn-primary:hover { background: #006ba6; }
-.btn-secondary { background: #fff; color: #003d6a; border: 2px solid #fff; }
+.btn-primary { background: #12354f; color: #fff; }
+.btn-primary:hover { background: #0d2a40; }
+.btn-secondary { background: #fff; color: #12354f; border: 2px solid #fff; }
 
 /* ===== Brand colours (from ProDrive social graphics) ===== */
-:root { --pd-navy: #1f225d; --pd-sky: #00b0eb; --pd-orange: #ff8c2d; }
+:root { --pd-navy: #12354f; --pd-sky: #ffffff; --pd-orange: #e8782a; }
 nav, nav ul, .site-footer { background: var(--pd-navy); }
 nav { border-bottom: 4px solid var(--pd-orange); }
 @media (max-width: 1100px) { nav ul { background: var(--pd-navy); top: 64px; } }
@@ -581,7 +581,7 @@ nav a:hover { color: var(--pd-orange); }
 .series-kicker { color: var(--pd-orange); }
 .soon-badge { background: var(--pd-orange); color: var(--pd-navy); }
 .btn-primary { background: var(--pd-orange); color: var(--pd-navy); }
-.btn-primary:hover { background: #ff7a0d; }
+.btn-primary:hover { background: #d4691f; }
 .interest-box, .how-section { background: var(--pd-navy); }
 .interest-box { border-bottom: 6px solid var(--pd-orange); }
 .step-number { background: var(--pd-orange); color: var(--pd-navy); }
@@ -620,7 +620,7 @@ nav a:hover { color: var(--pd-orange); }
   display: block;
   width: 120px;
   height: 2px;
-  background: #7d80b5;
+  background: #5f7a90;
   margin: 22px auto;
 }
 .hero-brand .hero-line {
@@ -673,7 +673,7 @@ nav a:hover { color: var(--pd-orange); }
   max-width: 900px; margin: 8px auto 40px; padding: 28px 30px; box-sizing: border-box;
   background: var(--pd-navy); border-left: 6px solid var(--pd-orange); border-radius: 14px; text-align: left;
 }
-.about-section .philosophy p { color: #e8e9f5; margin: 0; max-width: none; text-align: left; line-height: 1.6; }
+.about-section .philosophy p { color: #e6ebef; margin: 0; max-width: none; text-align: left; line-height: 1.6; }
 .about-section .philosophy p.philosophy-lead { color: var(--pd-sky); font-size: 1.45rem; font-weight: 800; margin-bottom: 10px; }
 .founder {
   max-width: 900px; margin: 0 auto 44px; padding: 28px 30px; box-sizing: border-box;
@@ -694,7 +694,7 @@ nav a:hover { color: var(--pd-orange); }
   width: 100%; max-width: 1100px; margin: 0 auto 18px; box-sizing: border-box;
 }
 .offer-card {
-  background: #fff; border: 2px solid #e3e4ef; border-radius: 14px; padding: 24px 22px;
+  background: #fff; border: 2px solid #dde3e8; border-radius: 14px; padding: 24px 22px;
   text-align: left; box-sizing: border-box;
 }
 .offer-card h3 { color: var(--pd-navy); font-size: 1.2rem; margin: 0 0 12px; }
@@ -739,7 +739,7 @@ nav a:hover { color: var(--pd-orange); }
   max-width: 820px; margin: 0 auto 36px; padding: 22px 26px; box-sizing: border-box;
   background: rgba(255,255,255,0.07); border-left: 6px solid var(--pd-orange); border-radius: 12px; text-align: left;
 }
-.wellness-scenario p { margin: 0; font-size: 1.1rem; line-height: 1.65; color: #e8e9f5; }
+.wellness-scenario p { margin: 0; font-size: 1.1rem; line-height: 1.65; color: #e6ebef; }
 .wellness-scenario strong { color: #fff; }
 .wellness-stats {
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
@@ -750,9 +750,9 @@ nav a:hover { color: var(--pd-orange); }
   background: rgba(255,255,255,0.07); border-radius: 12px;
 }
 .stat-value { font-size: 2.6rem; font-weight: 800; color: var(--pd-orange); line-height: 1; font-variant-numeric: tabular-nums; }
-.stat-label { color: #e8e9f5; font-size: 0.98rem; line-height: 1.45; }
-.stat-source { max-width: 900px; margin: 0 auto 40px; font-size: 0.85rem; color: #b9bbdc; line-height: 1.5; }
-.stat-source a { color: #b9bbdc; }
+.stat-label { color: #e6ebef; font-size: 0.98rem; line-height: 1.45; }
+.stat-source { max-width: 900px; margin: 0 auto 40px; font-size: 0.85rem; color: #b5c0c8; line-height: 1.5; }
+.stat-source a { color: #b5c0c8; }
 .wellness-partner {
   max-width: 820px; margin: 0 auto; padding: 26px 28px; box-sizing: border-box;
   background: #fff; color: #222; border-radius: 14px; text-align: left; border-top: 5px solid var(--pd-sky);
@@ -774,7 +774,7 @@ nav a:hover { color: var(--pd-orange); }
 .btn-ghost { background: transparent; color: var(--pd-navy); border: 2px solid var(--pd-navy); }
 .btn-ghost:hover { background: var(--pd-navy); color: #fff; }
 .wellness-qr { display: flex; align-items: center; gap: 12px; margin-left: auto; }
-.wellness-qr img { width: 104px; height: 104px; border: 1px solid #e3e4ef; border-radius: 8px; }
+.wellness-qr img { width: 104px; height: 104px; border: 1px solid #dde3e8; border-radius: 8px; }
 .wellness-qr span { font-size: 0.85rem; color: #555; max-width: 120px; line-height: 1.35; }
 @media (max-width: 700px) { .wellness-qr { display: none; } }
 
@@ -833,7 +833,7 @@ nav a.active { color: var(--pd-orange); }
   border-top: 6px solid var(--pd-orange);
 }
 .profile-cta h2 { color: var(--pd-sky); font-size: 2rem; margin: 0 0 12px; }
-.profile-cta p { max-width: 720px; margin: 0 auto 26px; line-height: 1.6; color: #e8e9f5; font-size: 1.1rem; }
+.profile-cta p { max-width: 720px; margin: 0 auto 26px; line-height: 1.6; color: #e6ebef; font-size: 1.1rem; }
 .profile-cta + .site-footer { margin-top: 0; }
 @media (max-width: 600px) { .profile-title { font-size: 1.7rem; } }
 
@@ -847,7 +847,7 @@ nav a.active { color: var(--pd-orange); }
   flex: 0 0 auto; background: var(--pd-orange); color: var(--pd-navy); font-weight: 800; font-size: 0.78rem;
   letter-spacing: 1.5px; text-transform: uppercase; padding: 6px 12px; border-radius: 999px;
 }
-.about-section .track-record p { margin: 0; color: #e8e9f5; text-align: left; max-width: none; flex: 1 1 300px; line-height: 1.5; font-size: 1rem; }
+.about-section .track-record p { margin: 0; color: #e6ebef; text-align: left; max-width: none; flex: 1 1 300px; line-height: 1.5; font-size: 1rem; }
 .about-section .track-record strong { color: #fff; }
 
 /* Contact: online first, no street address or map */
@@ -863,7 +863,7 @@ nav a.active { color: var(--pd-orange); }
 }
 .howwework h3 { color: var(--pd-sky); font-size: 1.4rem; margin: 0 0 14px; }
 .howwework ul { list-style: none; margin: 0 0 22px; padding: 0; }
-.howwework li { position: relative; padding: 8px 0 8px 28px; line-height: 1.5; color: #e8e9f5; }
+.howwework li { position: relative; padding: 8px 0 8px 28px; line-height: 1.5; color: #e6ebef; }
 .howwework li::before { content: "\2713"; position: absolute; left: 0; top: 8px; color: var(--pd-orange); font-weight: 800; }
 .howwework strong { color: #fff; }
 .howwework-buttons { display: flex; gap: 12px; flex-wrap: wrap; }
@@ -914,3 +914,15 @@ nav a.active { color: var(--pd-orange); }
   .courses-gallery h2.ddsl-title { font-size: 1.85rem; padding: 20px 14px 16px; }
   .ddsl-tagline { font-size: 0.98rem; padding: 12px 14px; }
 }
+
+/* ===== Series palette: white page, slate navy panels, orange accents ===== */
+body { background: #ffffff; }
+.contact-section, .image-gallery { background: #ffffff; }
+.image-gallery, .contact-section { border-top: 1px solid #dde3e8; }
+.hero-brand .hero-content h1 { color: #ffffff; }
+.hero-brand .hero-line { color: var(--pd-orange); }
+.wellness-partner { border-top-color: var(--pd-orange); }
+.course-card, .fact, .why, .module, .founder, .stat { background: #f4f6f8; }
+.contact-info a, .bee-details a { color: var(--pd-navy); }
+.contact-section h2, .bee-details strong, .image-gallery h2, .courses-gallery h2 { color: var(--pd-navy); }
+.inspection-tag { color: var(--pd-navy); }
