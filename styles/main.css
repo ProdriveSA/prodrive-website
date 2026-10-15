@@ -1008,3 +1008,5 @@ body { background: #ffffff; }
 .handover-card p.handover-use { color: var(--pd-navy); margin: 4px 0 8px; }
 
 .handover-card { margin-top: 8px; }
+
+.handover-btn { margin-top: 16px; }
