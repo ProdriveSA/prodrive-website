@@ -1087,3 +1087,23 @@ body { background: #ffffff; }
 .how2-steps strong { display: block; color: var(--pd-navy); font-size: 1.05rem; margin-bottom: 2px; }
 .how2-steps div span { color: #444; line-height: 1.45; }
 @media (max-width: 800px) { .how2-grid { grid-template-columns: 1fr; } }
+
+/* Vehicle handover (OEM-specific) */
+.handover-card {
+  display: flex; gap: 28px; align-items: center; flex-wrap: wrap;
+  max-width: 1000px; margin: 28px auto 0; padding: 28px 28px; box-sizing: border-box;
+  background: #fff; border: 2px solid var(--pd-navy); border-radius: 16px; text-align: left;
+}
+.handover-text { flex: 1 1 420px; }
+.handover-card h3 { color: var(--pd-navy); font-size: 1.35rem; margin: 12px 0 10px; }
+.handover-card p { color: #222; line-height: 1.6; margin: 0 0 10px; }
+.handover-card p.handover-note { color: var(--pd-grey); font-weight: 600; margin: 0; }
+.walkaround {
+  flex: 0 0 auto; list-style: none; margin: 0 auto; padding: 0;
+  display: grid; grid-template-columns: repeat(4, 44px); gap: 10px; justify-content: center;
+}
+.walkaround li span {
+  display: flex; width: 44px; height: 44px; border-radius: 50%; align-items: center; justify-content: center;
+  background: var(--pd-navy); color: #fff; font-weight: 800; border: 3px solid var(--pd-orange);
+}
+.walkaround li:last-child { grid-column: 2 / span 2; justify-self: center; }
