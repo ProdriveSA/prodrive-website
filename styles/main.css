@@ -1120,3 +1120,5 @@ body { background: #ffffff; }
 @media (max-width: 600px) { .offer-grid { grid-template-columns: 1fr; } }
 
 .handover-card p.handover-use { color: var(--pd-navy); margin: 4px 0 8px; }
+
+.handover-card { margin-top: 8px; }
