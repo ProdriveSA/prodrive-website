@@ -1038,3 +1038,9 @@ body { background: #ffffff; }
 .vt-main { font-size: 1.6rem; font-weight: 900; text-transform: uppercase; line-height: 1.1; }
 .vt-sub { font-size: 0.85rem; font-weight: 600; color: #444; }
 .vt-code { margin-top: 6px; font-size: 0.8rem; font-weight: 800; letter-spacing: 3px; color: var(--pd-orange); border-top: 1px dashed #c9cacc; padding-top: 8px; }
+
+/* Footer copyright and legal links */
+.footer-copy { margin: 0 0 6px; color: #fff; font-size: 0.95rem; }
+.footer-details { font-size: 0.9rem; color: #c9cacc; }
+.footer-legal { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 18px; margin-top: 8px; font-size: 0.9rem; }
+.footer-legal a { color: #fff; text-decoration: underline; }
