@@ -1111,3 +1111,5 @@ body { background: #ffffff; }
   .vh-compare, .vh-steps { grid-template-columns: 1fr; }
   .vh-hero h1 { font-size: 2.1rem; }
 }
+.vh-hero { text-align: left; }
+#vh-contact ~ .site-footer { margin-top: 0; }
